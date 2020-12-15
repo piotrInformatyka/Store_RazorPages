@@ -69,7 +69,7 @@ namespace SportsStore_Razor.Data
                    {
                        Name = "Ludzka szachownica",
                        Description = "Przyjemna gra dla całej rodziny",
-                       Category = "",
+                       Category = "Szachy",
                        Price = 75
                    },
                    new Product

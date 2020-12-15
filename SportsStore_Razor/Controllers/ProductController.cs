@@ -16,10 +16,11 @@ namespace SportsStore_Razor.Controllers
         {
             _productRepository = repo;
         }
-        public ViewResult List(int productPage = 1)
+        public ViewResult List(string category, int productPage = 1)
             => View(new ProductsListViewModel
             {
                 Products = _productRepository.Products
+                            .Where(p => category == null || p.Category == category)
                             .OrderBy(p => p.ProductID)
                             .Skip((productPage - 1) * PageSize)
                             .Take(PageSize),
@@ -27,8 +28,11 @@ namespace SportsStore_Razor.Controllers
                 {
                     CurrentPage = productPage,
                     ItemsPerPage = PageSize,
-                    TotalItems = _productRepository.Products.Count()
-                }
+                    TotalItems = category == null ?
+                        _productRepository.Products.Count() :
+                        _productRepository.Products.Where(x => x.Category == category).Count()
+                },
+                CurrentCategory = category
             });
     }
 }

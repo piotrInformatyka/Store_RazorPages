@@ -212,3 +212,4 @@ C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor.Tests\b
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor.Tests\obj\Debug\netcoreapp3.1\SportsStore_Razor.Tests.csproj.CopyComplete
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor.Tests\obj\Debug\netcoreapp3.1\SportsStore_Razor.Tests.dll
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor.Tests\obj\Debug\netcoreapp3.1\SportsStore_Razor.Tests.pdb
+C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor.Tests\bin\Debug\netcoreapp3.1\libman.json

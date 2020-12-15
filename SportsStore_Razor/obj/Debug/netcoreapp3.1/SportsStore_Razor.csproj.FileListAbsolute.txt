@@ -145,3 +145,4 @@ C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Deb
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\SportsStore_Razor.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductSummary.cshtml.g.cs
+C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
