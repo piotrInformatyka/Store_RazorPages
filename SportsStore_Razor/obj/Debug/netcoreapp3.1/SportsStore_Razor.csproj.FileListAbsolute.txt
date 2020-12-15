@@ -102,7 +102,6 @@ C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Deb
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs
-C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -141,6 +140,8 @@ C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Deb
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\SportsStore_Razor.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\SportsStore_Razor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Piotr-komputer\source\repos\SportsStore_Razor\SportsStore_Razor\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductSummary.cshtml.g.cs
