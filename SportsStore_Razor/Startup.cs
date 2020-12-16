@@ -23,6 +23,8 @@ namespace SportsStore_Razor
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc(option => option.EnableEndpointRouting = false);
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,7 +34,7 @@ namespace SportsStore_Razor
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseRouting();
 
             app.UseMvc(routes => {
