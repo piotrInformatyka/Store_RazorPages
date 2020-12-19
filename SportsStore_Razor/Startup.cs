@@ -1,10 +1,13 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SportsStore_Razor.Data;
+using SportsStore_Razor.Models;
 using SportsStore_Razor.Repositories;
+using SportsStore_Razor.Services;
 
 namespace SportsStore_Razor
 {
@@ -21,6 +24,8 @@ namespace SportsStore_Razor
             services.AddMvc();
             services.AddTransient<SeedData>();
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddMemoryCache();

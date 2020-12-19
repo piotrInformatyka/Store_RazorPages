@@ -4,11 +4,17 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
     <title>SportsStore</title>
 </head>
 <body>
     <div class="navbar navbar-dark bg-primary" role="navigation">
-        <a class="navbar-brand" href="#">Sklep sportowy</a>
+        <div class="row">
+            <a class="col- navbar-brand" href="#">Sklep sportowy</a>
+            <div class="col "col-md-4 offset-md-4">
+                @await  Component.InvokeAsync("CartSummary")
+            </div>
+        </div>
     </div>
     <div class="row m-1 p-1">
         <div id="categories" class="col-3">
