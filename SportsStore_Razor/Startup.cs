@@ -24,6 +24,7 @@ namespace SportsStore_Razor
             services.AddMvc();
             services.AddTransient<SeedData>();
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
             services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
@@ -43,6 +44,11 @@ namespace SportsStore_Razor
             app.UseRouting();
 
             app.UseMvc(routes => {
+                routes.MapRoute(
+                    name: null,
+                    template: "dioda",
+                    defaults: new { Controller = "LED", action = "Index" }
+                    );
                 routes.MapRoute(
                     name: null,
                     template: "{category}/Strona{productPage:int}",
